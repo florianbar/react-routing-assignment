@@ -4,3 +4,18 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav li {
+  padding: 20px;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+}
+nav a.active {
+  color: red;
+}
